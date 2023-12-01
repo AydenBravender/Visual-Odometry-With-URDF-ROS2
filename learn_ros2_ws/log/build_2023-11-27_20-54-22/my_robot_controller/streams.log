@@ -1,0 +1,32 @@
+[2.894s] Invoking command in '/home/ayden/learn_ros2_ws/src/my_robot_controller': PYTHONPATH=/home/ayden/learn_ros2_ws/build/my_robot_controller/prefix_override:/home/ayden/learn_ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/ayden/learn_ros2_ws/build/my_robot_controller/build install --record /home/ayden/learn_ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed
+[3.837s] running egg_info
+[3.838s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[3.839s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[3.839s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[3.840s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[3.840s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[3.844s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[3.846s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[3.847s] running build
+[3.847s] running build_py
+[3.847s] copying my_robot_controller/driver_node.py -> /home/ayden/learn_ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[3.849s] copying my_robot_controller/__init__.py -> /home/ayden/learn_ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[3.850s] running install
+[3.851s] running install_lib
+[3.853s] copying /home/ayden/learn_ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/driver_node.py -> /home/ayden/learn_ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[3.854s] copying /home/ayden/learn_ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/ayden/learn_ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[3.856s] byte-compiling /home/ayden/learn_ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/driver_node.py to driver_node.cpython-310.pyc
+[3.857s] byte-compiling /home/ayden/learn_ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[3.858s]   File "/home/ayden/learn_ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py", line 1
+[3.858s]     print hi
+[3.858s]     ^^^^^^^^
+[3.859s] SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+[3.859s] 
+[3.859s] running install_data
+[3.860s] running install_egg_info
+[3.866s] removing '/home/ayden/learn_ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[3.867s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/ayden/learn_ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[3.873s] running install_scripts
+[3.911s] Installing driver_node script to /home/ayden/learn_ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[3.913s] writing list of installed files to '/home/ayden/learn_ros2_ws/build/my_robot_controller/install.log'
+[3.963s] Invoked command in '/home/ayden/learn_ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/ayden/learn_ros2_ws/build/my_robot_controller/prefix_override:/home/ayden/learn_ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/ayden/learn_ros2_ws/build/my_robot_controller/build install --record /home/ayden/learn_ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed

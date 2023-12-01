@@ -1,0 +1,261 @@
+[0.000000] (-) TimerEvent: {}
+[0.000884] (my_urdf_pkg) JobQueued: {'identifier': 'my_urdf_pkg', 'dependencies': OrderedDict()}
+[0.001093] (my_urdf_pkg) JobStarted: {'identifier': 'my_urdf_pkg'}
+[0.098010] (-) TimerEvent: {}
+[0.199025] (-) TimerEvent: {}
+[0.299860] (-) TimerEvent: {}
+[0.348398] (my_urdf_pkg) JobProgress: {'identifier': 'my_urdf_pkg', 'progress': 'cmake'}
+[0.353307] (my_urdf_pkg) JobProgress: {'identifier': 'my_urdf_pkg', 'progress': 'build'}
+[0.354803] (my_urdf_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ayden/learn_ros2_ws/build/my_urdf_pkg', '--', '-j4', '-l4'], 'cwd': '/home/ayden/learn_ros2_ws/build/my_urdf_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ayden'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ayden'), ('OLDPWD', '/home/ayden'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ayden/learn_ros2_ws/install:/home/ayden/ros2_ws/install:/home/ayden/science_fair_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ayden'), ('NAME', 'SB1'), ('WSL_INTEROP', '/run/WSL/13593_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ayden/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Bravender/anaconda3:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Bravenders/AppData/Local/Programs/Python/Python3.11:/mnt/c/Users/Bravender/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Bravender/AppData/Local/Programs/Python/Python311/:/mnt/c/Python311/python3.exe:/mnt/c/Users/Bravender/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ayden/learn_ros2_ws/install/my_urdf_pkg:/home/ayden/science_fair_ws/install/vine_robot:/home/ayden/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ayden/learn_ros2_ws/build/my_urdf_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ayden/science_fair_ws/install/vine_robot/lib/python3.10/site-packages:/home/ayden/ros2_ws/build/my_robot_controller:/home/ayden/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ayden/learn_ros2_ws/install/my_urdf_pkg:/home/ayden/science_fair_ws/install/vine_robot:/home/ayden/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.400042] (-) TimerEvent: {}
+[0.500913] (-) TimerEvent: {}
+[0.601676] (-) TimerEvent: {}
+[0.702568] (-) TimerEvent: {}
+[0.799999] (my_urdf_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o\x1b[0m\n'}
+[0.803793] (-) TimerEvent: {}
+[0.904436] (-) TimerEvent: {}
+[1.005020] (-) TimerEvent: {}
+[1.105706] (-) TimerEvent: {}
+[1.206508] (-) TimerEvent: {}
+[1.307524] (-) TimerEvent: {}
+[1.409864] (-) TimerEvent: {}
+[1.510417] (-) TimerEvent: {}
+[1.610894] (-) TimerEvent: {}
+[1.711364] (-) TimerEvent: {}
+[1.811907] (-) TimerEvent: {}
+[1.912426] (-) TimerEvent: {}
+[2.013338] (-) TimerEvent: {}
+[2.113889] (-) TimerEvent: {}
+[2.214634] (-) TimerEvent: {}
+[2.315185] (-) TimerEvent: {}
+[2.415737] (-) TimerEvent: {}
+[2.516321] (-) TimerEvent: {}
+[2.617125] (-) TimerEvent: {}
+[2.718193] (-) TimerEvent: {}
+[2.818763] (-) TimerEvent: {}
+[2.920074] (-) TimerEvent: {}
+[3.021220] (-) TimerEvent: {}
+[3.121847] (-) TimerEvent: {}
+[3.222320] (-) TimerEvent: {}
+[3.322876] (-) TimerEvent: {}
+[3.423521] (-) TimerEvent: {}
+[3.524121] (-) TimerEvent: {}
+[3.624623] (-) TimerEvent: {}
+[3.725110] (-) TimerEvent: {}
+[3.825709] (-) TimerEvent: {}
+[3.926319] (-) TimerEvent: {}
+[4.026936] (-) TimerEvent: {}
+[4.128074] (-) TimerEvent: {}
+[4.229154] (-) TimerEvent: {}
+[4.329829] (-) TimerEvent: {}
+[4.430456] (-) TimerEvent: {}
+[4.531064] (-) TimerEvent: {}
+[4.632493] (-) TimerEvent: {}
+[4.733971] (-) TimerEvent: {}
+[4.835624] (-) TimerEvent: {}
+[4.936710] (-) TimerEvent: {}
+[5.037401] (-) TimerEvent: {}
+[5.139512] (-) TimerEvent: {}
+[5.240279] (-) TimerEvent: {}
+[5.341480] (-) TimerEvent: {}
+[5.442182] (-) TimerEvent: {}
+[5.543278] (-) TimerEvent: {}
+[5.644076] (-) TimerEvent: {}
+[5.745087] (-) TimerEvent: {}
+[5.845991] (-) TimerEvent: {}
+[5.946778] (-) TimerEvent: {}
+[6.047508] (-) TimerEvent: {}
+[6.148099] (-) TimerEvent: {}
+[6.248681] (-) TimerEvent: {}
+[6.349353] (-) TimerEvent: {}
+[6.450032] (-) TimerEvent: {}
+[6.550791] (-) TimerEvent: {}
+[6.651474] (-) TimerEvent: {}
+[6.752286] (-) TimerEvent: {}
+[6.852978] (-) TimerEvent: {}
+[6.957049] (-) TimerEvent: {}
+[7.057705] (-) TimerEvent: {}
+[7.158297] (-) TimerEvent: {}
+[7.259066] (-) TimerEvent: {}
+[7.359876] (-) TimerEvent: {}
+[7.460654] (-) TimerEvent: {}
+[7.561569] (-) TimerEvent: {}
+[7.662393] (-) TimerEvent: {}
+[7.763163] (-) TimerEvent: {}
+[7.863922] (-) TimerEvent: {}
+[7.964469] (-) TimerEvent: {}
+[8.065104] (-) TimerEvent: {}
+[8.165715] (-) TimerEvent: {}
+[8.266421] (-) TimerEvent: {}
+[8.367120] (-) TimerEvent: {}
+[8.467772] (-) TimerEvent: {}
+[8.568531] (-) TimerEvent: {}
+[8.669147] (-) TimerEvent: {}
+[8.769934] (-) TimerEvent: {}
+[8.870760] (-) TimerEvent: {}
+[8.971303] (-) TimerEvent: {}
+[9.071939] (-) TimerEvent: {}
+[9.172745] (-) TimerEvent: {}
+[9.273370] (-) TimerEvent: {}
+[9.374242] (-) TimerEvent: {}
+[9.474922] (-) TimerEvent: {}
+[9.575687] (-) TimerEvent: {}
+[9.676404] (-) TimerEvent: {}
+[9.777303] (-) TimerEvent: {}
+[9.878067] (-) TimerEvent: {}
+[9.978825] (-) TimerEvent: {}
+[10.079683] (-) TimerEvent: {}
+[10.180357] (-) TimerEvent: {}
+[10.280998] (-) TimerEvent: {}
+[10.381802] (-) TimerEvent: {}
+[10.482535] (-) TimerEvent: {}
+[10.583154] (-) TimerEvent: {}
+[10.683956] (-) TimerEvent: {}
+[10.784739] (-) TimerEvent: {}
+[10.885316] (-) TimerEvent: {}
+[10.986582] (-) TimerEvent: {}
+[11.087282] (-) TimerEvent: {}
+[11.187936] (-) TimerEvent: {}
+[11.288638] (-) TimerEvent: {}
+[11.389132] (-) TimerEvent: {}
+[11.490016] (-) TimerEvent: {}
+[11.590907] (-) TimerEvent: {}
+[11.691719] (-) TimerEvent: {}
+[11.792359] (-) TimerEvent: {}
+[11.893204] (-) TimerEvent: {}
+[11.993872] (-) TimerEvent: {}
+[12.094466] (-) TimerEvent: {}
+[12.195197] (-) TimerEvent: {}
+[12.295851] (-) TimerEvent: {}
+[12.396545] (-) TimerEvent: {}
+[12.497306] (-) TimerEvent: {}
+[12.598026] (-) TimerEvent: {}
+[12.698575] (-) TimerEvent: {}
+[12.799154] (-) TimerEvent: {}
+[12.899842] (-) TimerEvent: {}
+[13.000479] (-) TimerEvent: {}
+[13.101129] (-) TimerEvent: {}
+[13.201808] (-) TimerEvent: {}
+[13.302382] (-) TimerEvent: {}
+[13.402968] (-) TimerEvent: {}
+[13.503588] (-) TimerEvent: {}
+[13.604185] (-) TimerEvent: {}
+[13.704841] (-) TimerEvent: {}
+[13.805595] (-) TimerEvent: {}
+[13.906442] (-) TimerEvent: {}
+[14.007194] (-) TimerEvent: {}
+[14.107973] (-) TimerEvent: {}
+[14.208623] (-) TimerEvent: {}
+[14.309442] (-) TimerEvent: {}
+[14.416481] (-) TimerEvent: {}
+[14.517404] (-) TimerEvent: {}
+[14.618112] (-) TimerEvent: {}
+[14.718796] (-) TimerEvent: {}
+[14.819747] (-) TimerEvent: {}
+[14.920595] (-) TimerEvent: {}
+[15.021789] (-) TimerEvent: {}
+[15.122434] (-) TimerEvent: {}
+[15.223038] (-) TimerEvent: {}
+[15.323671] (-) TimerEvent: {}
+[15.424272] (-) TimerEvent: {}
+[15.524887] (-) TimerEvent: {}
+[15.625601] (-) TimerEvent: {}
+[15.726264] (-) TimerEvent: {}
+[15.826992] (-) TimerEvent: {}
+[15.928195] (-) TimerEvent: {}
+[16.028872] (-) TimerEvent: {}
+[16.129661] (-) TimerEvent: {}
+[16.230276] (-) TimerEvent: {}
+[16.330877] (-) TimerEvent: {}
+[16.431462] (-) TimerEvent: {}
+[16.532101] (-) TimerEvent: {}
+[16.632843] (-) TimerEvent: {}
+[16.733545] (-) TimerEvent: {}
+[16.834260] (-) TimerEvent: {}
+[16.934865] (-) TimerEvent: {}
+[17.035523] (-) TimerEvent: {}
+[17.136124] (-) TimerEvent: {}
+[17.236878] (-) TimerEvent: {}
+[17.337836] (-) TimerEvent: {}
+[17.438544] (-) TimerEvent: {}
+[17.469538] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid get_input(JointStatePublisher*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.471174] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:59:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstd::istringstream ss\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.471911] (my_urdf_pkg) StderrLine: {'line': b'   59 |     std::istringstream \x1b[01;31m\x1b[Kss\x1b[m\x1b[K(input);\n'}
+[17.472271] (my_urdf_pkg) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[17.472687] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:47:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::istringstream ss\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[17.473051] (my_urdf_pkg) StderrLine: {'line': b'   47 |     std::istringstream \x1b[01;36m\x1b[Kss\x1b[m\x1b[K(input);\n'}
+[17.473378] (my_urdf_pkg) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[17.473708] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:60:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstd::string token\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.474035] (my_urdf_pkg) StderrLine: {'line': b'   60 |     std::string \x1b[01;31m\x1b[Ktoken\x1b[m\x1b[K;\n'}
+[17.474370] (my_urdf_pkg) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[17.474689] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:48:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::string token\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[17.475027] (my_urdf_pkg) StderrLine: {'line': b'   48 |     std::string \x1b[01;36m\x1b[Ktoken\x1b[m\x1b[K;\n'}
+[17.475375] (my_urdf_pkg) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[17.475538] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:61:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> > joint_positions\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.475751] (my_urdf_pkg) StderrLine: {'line': b'   61 |     std::vector<double> \x1b[01;31m\x1b[Kjoint_positions\x1b[m\x1b[K;\n'}
+[17.476056] (my_urdf_pkg) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.476311] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:49:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> > joint_positions\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[17.476605] (my_urdf_pkg) StderrLine: {'line': b'   49 |     std::vector<double> \x1b[01;36m\x1b[Kjoint_positions\x1b[m\x1b[K;\n'}
+[17.476850] (my_urdf_pkg) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.538701] (-) TimerEvent: {}
+[17.639336] (-) TimerEvent: {}
+[17.740191] (-) TimerEvent: {}
+[17.840905] (-) TimerEvent: {}
+[17.941593] (-) TimerEvent: {}
+[18.042350] (-) TimerEvent: {}
+[18.143066] (-) TimerEvent: {}
+[18.243752] (-) TimerEvent: {}
+[18.344566] (-) TimerEvent: {}
+[18.463622] (-) TimerEvent: {}
+[18.564301] (-) TimerEvent: {}
+[18.665004] (-) TimerEvent: {}
+[18.765754] (-) TimerEvent: {}
+[18.866408] (-) TimerEvent: {}
+[18.967093] (-) TimerEvent: {}
+[19.068014] (-) TimerEvent: {}
+[19.168776] (-) TimerEvent: {}
+[19.269489] (-) TimerEvent: {}
+[19.370102] (-) TimerEvent: {}
+[19.470636] (-) TimerEvent: {}
+[19.571262] (-) TimerEvent: {}
+[19.671851] (-) TimerEvent: {}
+[19.772605] (-) TimerEvent: {}
+[19.873103] (-) TimerEvent: {}
+[19.973658] (-) TimerEvent: {}
+[20.074437] (-) TimerEvent: {}
+[20.175552] (-) TimerEvent: {}
+[20.276403] (-) TimerEvent: {}
+[20.377135] (-) TimerEvent: {}
+[20.477754] (-) TimerEvent: {}
+[20.578506] (-) TimerEvent: {}
+[20.679180] (-) TimerEvent: {}
+[20.779916] (-) TimerEvent: {}
+[20.880512] (-) TimerEvent: {}
+[20.981665] (-) TimerEvent: {}
+[21.082381] (-) TimerEvent: {}
+[21.183096] (-) TimerEvent: {}
+[21.283782] (-) TimerEvent: {}
+[21.384473] (-) TimerEvent: {}
+[21.485197] (-) TimerEvent: {}
+[21.585778] (-) TimerEvent: {}
+[21.686373] (-) TimerEvent: {}
+[21.787158] (-) TimerEvent: {}
+[21.888051] (-) TimerEvent: {}
+[21.988672] (-) TimerEvent: {}
+[22.089389] (-) TimerEvent: {}
+[22.189967] (-) TimerEvent: {}
+[22.290652] (-) TimerEvent: {}
+[22.391301] (-) TimerEvent: {}
+[22.492028] (-) TimerEvent: {}
+[22.592720] (-) TimerEvent: {}
+[22.656738] (my_urdf_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/my_node.dir/build.make:76: CMakeFiles/my_node.dir/src/my_node.cpp.o] Error 1\n'}
+[22.657388] (my_urdf_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_node.dir/all] Error 2\n'}
+[22.657621] (my_urdf_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[22.663837] (my_urdf_pkg) CommandEnded: {'returncode': 2}
+[22.692958] (-) TimerEvent: {}
+[22.794728] (-) TimerEvent: {}
+[22.895283] (-) TimerEvent: {}
+[22.996517] (-) TimerEvent: {}
+[23.098297] (-) TimerEvent: {}
+[23.116346] (my_urdf_pkg) JobEnded: {'identifier': 'my_urdf_pkg', 'rc': 2}
+[23.127715] (-) EventReactorShutdown: {}

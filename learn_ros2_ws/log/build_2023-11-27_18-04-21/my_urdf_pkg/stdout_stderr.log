@@ -1,0 +1,23 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:[m[K In function ‘[01m[Kvoid get_input(JointStatePublisher*)[m[K’:
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:59:24:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::istringstream ss[m[K’
+   59 |     std::istringstream [01;31m[Kss[m[K(input);
+      |                        [01;31m[K^~[m[K
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:47:24:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::istringstream ss[m[K’ previously declared here
+   47 |     std::istringstream [01;36m[Kss[m[K(input);
+      |                        [01;36m[K^~[m[K
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:60:17:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::string token[m[K’
+   60 |     std::string [01;31m[Ktoken[m[K;
+      |                 [01;31m[K^~~~~[m[K
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:48:17:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string token[m[K’ previously declared here
+   48 |     std::string [01;36m[Ktoken[m[K;
+      |                 [01;36m[K^~~~~[m[K
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:61:25:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<double, std::allocator<double> > joint_positions[m[K’
+   61 |     std::vector<double> [01;31m[Kjoint_positions[m[K;
+      |                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:49:25:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<double, std::allocator<double> > joint_positions[m[K’ previously declared here
+   49 |     std::vector<double> [01;36m[Kjoint_positions[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/my_node.dir/build.make:76: CMakeFiles/my_node.dir/src/my_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

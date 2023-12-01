@@ -1,0 +1,16 @@
+/home/ayden/learn_ros2_ws/install/my_urdf_pkg/lib/my_urdf_pkg/my_node
+/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/ament_index/resource_index/package_run_dependencies/my_urdf_pkg
+/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/ament_index/resource_index/parent_prefix_path/my_urdf_pkg
+/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/environment/ament_prefix_path.sh
+/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/environment/ament_prefix_path.dsv
+/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/environment/path.sh
+/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/environment/path.dsv
+/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/local_setup.bash
+/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/local_setup.sh
+/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/local_setup.zsh
+/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/local_setup.dsv
+/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/package.dsv
+/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/ament_index/resource_index/packages/my_urdf_pkg
+/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/cmake/my_urdf_pkgConfig.cmake
+/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/cmake/my_urdf_pkgConfig-version.cmake
+/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/package.xml

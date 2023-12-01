@@ -1,0 +1,62 @@
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:1:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+    1 | #include [01;31m[Krclcpp[m[K/rclcpp.hpp
+      |          [01;31m[K^~~~~~[m[K
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:2:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+    2 | #include [01;31m[Ksensor_msgs[m[K/msg/joint_state.hpp
+      |          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:4:36:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+    4 | class JointStatePublisher : public [01;31m[Krclcpp[m[K::Node
+      |                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:4:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KNode[m[K’
+    4 | class JointStatePublisher : public rclcpp::[01;31m[KNode[m[K
+      |                                            [01;31m[K^~~~[m[K
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:6:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+    6 | [01;31m[Kpublic[m[K:
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:6:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:5:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    5 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:15:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+   15 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:25:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+   25 |   [01;31m[Krclcpp[m[K::TimerBase::SharedPtr timer_;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:26:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+   26 |   [01;31m[Krclcpp[m[K::Publisher<sensor_msgs::msg::JointState>::SharedPtr publisher_;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:27:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+   27 |   [01;31m[Ksize_t[m[K count_;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+  +++ |+[32m[K#include <cstddef>[m[K
+    1 | #include rclcpp/rclcpp.hpp
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:28:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   28 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:32:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   32 |   [01;31m[Krclcpp[m[K::init(argc, argv);
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:33:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   33 |   [01;31m[Krclcpp[m[K::spin(std::make_shared<JointStatePublisher>());
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:33:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   33 |   rclcpp::spin(std::[01;31m[Kmake_shared[m[K<JointStatePublisher>());
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::make_shared[m[K’ is defined in header ‘[01m[K<memory>[m[K’; did you forget to ‘[01m[K#include <memory>[m[K’?
+  +++ |+[32m[K#include <memory>[m[K
+    1 | #include rclcpp/rclcpp.hpp
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:33:52:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   33 |   rclcpp::spin(std::make_shared<JointStatePublisher[01;31m[K>[m[K());
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:33:54:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   33 |   rclcpp::spin(std::make_shared<JointStatePublisher>([01;31m[K)[m[K);
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:34:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   34 |   [01;31m[Krclcpp[m[K::shutdown();
+      |   [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/my_node.dir/build.make:76: CMakeFiles/my_node.dir/src/my_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

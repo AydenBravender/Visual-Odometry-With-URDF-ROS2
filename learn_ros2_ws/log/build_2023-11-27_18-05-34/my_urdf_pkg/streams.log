@@ -1,0 +1,26 @@
+[0.279s] Invoking command in '/home/ayden/learn_ros2_ws/build/my_urdf_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayden/science_fair_ws/install/vine_robot:/home/ayden/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ayden/learn_ros2_ws/build/my_urdf_pkg -- -j4 -l4
+[0.374s] [35m[1mConsolidate compiler generated dependencies of target my_node[0m
+[0.420s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[25.731s] [100%] [32m[1mLinking CXX executable my_node[0m
+[26.469s] [100%] Built target my_node
+[26.494s] Invoked command in '/home/ayden/learn_ros2_ws/build/my_urdf_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayden/science_fair_ws/install/vine_robot:/home/ayden/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ayden/learn_ros2_ws/build/my_urdf_pkg -- -j4 -l4
+[26.577s] Invoking command in '/home/ayden/learn_ros2_ws/build/my_urdf_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayden/science_fair_ws/install/vine_robot:/home/ayden/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ayden/learn_ros2_ws/build/my_urdf_pkg
+[26.598s] -- Install configuration: ""
+[26.606s] -- Installing: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/lib/my_urdf_pkg/my_node
+[26.613s] -- Set runtime path of "/home/ayden/learn_ros2_ws/install/my_urdf_pkg/lib/my_urdf_pkg/my_node" to ""
+[26.620s] -- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/ament_index/resource_index/package_run_dependencies/my_urdf_pkg
+[26.621s] -- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/ament_index/resource_index/parent_prefix_path/my_urdf_pkg
+[26.626s] -- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/environment/ament_prefix_path.sh
+[26.628s] -- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/environment/ament_prefix_path.dsv
+[26.628s] -- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/environment/path.sh
+[26.629s] -- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/environment/path.dsv
+[26.630s] -- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/local_setup.bash
+[26.630s] -- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/local_setup.sh
+[26.630s] -- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/local_setup.zsh
+[26.630s] -- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/local_setup.dsv
+[26.631s] -- Installing: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/package.dsv
+[26.642s] -- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/ament_index/resource_index/packages/my_urdf_pkg
+[26.646s] -- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/cmake/my_urdf_pkgConfig.cmake
+[26.646s] -- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/cmake/my_urdf_pkgConfig-version.cmake
+[26.647s] -- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/package.xml
+[26.659s] Invoked command in '/home/ayden/learn_ros2_ws/build/my_urdf_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayden/science_fair_ws/install/vine_robot:/home/ayden/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ayden/learn_ros2_ws/build/my_urdf_pkg

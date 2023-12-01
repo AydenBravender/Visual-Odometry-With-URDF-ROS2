@@ -1,0 +1,56 @@
+[14.477s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/ayden/learn_ros2_ws']
+[14.478s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/ayden/learn_ros2_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe00cfdd7e0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fe00cfc5c30>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fe00cfc5c30>>)
+[14.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[14.821s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[14.821s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[14.821s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[14.821s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[14.823s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ayden/learn_ros2_ws'
+[14.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[14.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws) by extension 'ignore'
+[14.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws) by extension 'ignore_ament_install'
+[14.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws) by extensions ['colcon_pkg']
+[14.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws) by extension 'colcon_pkg'
+[14.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws) by extensions ['colcon_meta']
+[14.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws) by extension 'colcon_meta'
+[14.826s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws) by extensions ['ros']
+[14.826s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws) by extension 'ros'
+[14.873s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws) by extensions ['cmake', 'python']
+[14.874s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws) by extension 'cmake'
+[14.874s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws) by extension 'python'
+[14.874s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws) by extensions ['python_setup_py']
+[14.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws) by extension 'python_setup_py'
+[14.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[14.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/build) by extension 'ignore'
+[14.877s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/build) ignored
+[14.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[14.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/install) by extension 'ignore'
+[14.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/install) ignored
+[14.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[14.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/log) by extension 'ignore'
+[14.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/log) ignored
+[14.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[14.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/src) by extension 'ignore'
+[14.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/src) by extension 'ignore_ament_install'
+[14.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/src) by extensions ['colcon_pkg']
+[14.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/src) by extension 'colcon_pkg'
+[14.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/src) by extensions ['colcon_meta']
+[14.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/src) by extension 'colcon_meta'
+[14.882s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/src) by extensions ['ros']
+[14.882s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/src) by extension 'ros'
+[14.882s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/src) by extensions ['cmake', 'python']
+[14.882s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/src) by extension 'cmake'
+[14.882s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/src) by extension 'python'
+[14.883s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/src) by extensions ['python_setup_py']
+[14.883s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/src) by extension 'python_setup_py'
+[14.883s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/src/my_urdf_pkg) by extensions ['ignore', 'ignore_ament_install']
+[14.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/src/my_urdf_pkg) by extension 'ignore'
+[14.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/src/my_urdf_pkg) by extension 'ignore_ament_install'
+[14.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/src/my_urdf_pkg) by extensions ['colcon_pkg']
+[14.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/src/my_urdf_pkg) by extension 'colcon_pkg'
+[14.885s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/src/my_urdf_pkg) by extensions ['colcon_meta']
+[14.885s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/src/my_urdf_pkg) by extension 'colcon_meta'
+[14.885s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/src/my_urdf_pkg) by extensions ['ros']
+[14.885s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ayden/learn_ros2_ws/src/my_urdf_pkg) by extension 'ros'
+[14.895s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ayden/learn_ros2_ws/src/my_urdf_pkg' with type 'ros.ament_cmake' and name 'my_urdf_pkg'
+[14.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

@@ -1,0 +1,25 @@
+[0.363s] Invoking command in '/home/ayden/learn_ros2_ws/build/my_urdf_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayden/science_fair_ws/install/vine_robot:/home/ayden/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ayden/learn_ros2_ws/build/my_urdf_pkg -- -j4 -l4
+[0.799s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[17.470s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:[m[K In function ‘[01m[Kvoid get_input(JointStatePublisher*)[m[K’:
+[17.471s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:59:24:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::istringstream ss[m[K’
+[17.471s]    59 |     std::istringstream [01;31m[Kss[m[K(input);
+[17.471s]       |                        [01;31m[K^~[m[K
+[17.472s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:47:24:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::istringstream ss[m[K’ previously declared here
+[17.472s]    47 |     std::istringstream [01;36m[Kss[m[K(input);
+[17.472s]       |                        [01;36m[K^~[m[K
+[17.473s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:60:17:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::string token[m[K’
+[17.473s]    60 |     std::string [01;31m[Ktoken[m[K;
+[17.473s]       |                 [01;31m[K^~~~~[m[K
+[17.474s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:48:17:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string token[m[K’ previously declared here
+[17.474s]    48 |     std::string [01;36m[Ktoken[m[K;
+[17.474s]       |                 [01;36m[K^~~~~[m[K
+[17.474s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:61:25:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<double, std::allocator<double> > joint_positions[m[K’
+[17.475s]    61 |     std::vector<double> [01;31m[Kjoint_positions[m[K;
+[17.475s]       |                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[17.475s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:49:25:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<double, std::allocator<double> > joint_positions[m[K’ previously declared here
+[17.476s]    49 |     std::vector<double> [01;36m[Kjoint_positions[m[K;
+[17.476s]       |                         [01;36m[K^~~~~~~~~~~~~~~[m[K
+[22.656s] gmake[2]: *** [CMakeFiles/my_node.dir/build.make:76: CMakeFiles/my_node.dir/src/my_node.cpp.o] Error 1
+[22.656s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_node.dir/all] Error 2
+[22.657s] gmake: *** [Makefile:146: all] Error 2
+[22.664s] Invoked command in '/home/ayden/learn_ros2_ws/build/my_urdf_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayden/science_fair_ws/install/vine_robot:/home/ayden/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ayden/learn_ros2_ws/build/my_urdf_pkg -- -j4 -l4

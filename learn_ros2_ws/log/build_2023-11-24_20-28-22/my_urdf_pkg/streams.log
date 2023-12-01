@@ -1,0 +1,65 @@
+[0.280s] Invoking command in '/home/ayden/learn_ros2_ws/build/my_urdf_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayden/science_fair_ws/install/vine_robot:/home/ayden/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ayden/learn_ros2_ws/build/my_urdf_pkg -- -j4 -l4
+[0.623s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[0.807s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:1:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+[0.807s]     1 | #include [01;31m[Krclcpp[m[K/rclcpp.hpp
+[0.807s]       |          [01;31m[K^~~~~~[m[K
+[0.807s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:2:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+[0.807s]     2 | #include [01;31m[Ksensor_msgs[m[K/msg/joint_state.hpp
+[0.807s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.819s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:4:36:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.819s]     4 | class JointStatePublisher : public [01;31m[Krclcpp[m[K::Node
+[0.820s]       |                                    [01;31m[K^~~~~~[m[K
+[0.827s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:4:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KNode[m[K’
+[0.827s]     4 | class JointStatePublisher : public rclcpp::[01;31m[KNode[m[K
+[0.827s]       |                                            [01;31m[K^~~~[m[K
+[0.837s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:6:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+[0.838s]     6 | [01;31m[Kpublic[m[K:
+[0.838s]       | [01;31m[K^~~~~~[m[K
+[0.841s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:6:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[0.842s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:5:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[0.842s]     5 | [01;36m[K{[m[K
+[0.843s]       | [01;36m[K^[m[K
+[0.853s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:15:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[0.853s]    15 | [01;31m[Kprivate[m[K:
+[0.854s]       | [01;31m[K^~~~~~~[m[K
+[0.854s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:25:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[0.854s]    25 |   [01;31m[Krclcpp[m[K::TimerBase::SharedPtr timer_;
+[0.854s]       |   [01;31m[K^~~~~~[m[K
+[0.855s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:26:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[0.855s]    26 |   [01;31m[Krclcpp[m[K::Publisher<sensor_msgs::msg::JointState>::SharedPtr publisher_;
+[0.855s]       |   [01;31m[K^~~~~~[m[K
+[0.857s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:27:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.857s]    27 |   [01;31m[Ksize_t[m[K count_;
+[0.857s]       |   [01;31m[K^~~~~~[m[K
+[0.861s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.861s]   +++ |+[32m[K#include <cstddef>[m[K
+[0.861s]     1 | #include rclcpp/rclcpp.hpp
+[0.862s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:28:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[0.862s]    28 | [01;31m[K}[m[K;
+[0.862s]       | [01;31m[K^[m[K
+[0.865s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.865s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:32:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.865s]    32 |   [01;31m[Krclcpp[m[K::init(argc, argv);
+[0.865s]       |   [01;31m[K^~~~~~[m[K
+[0.871s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:33:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.871s]    33 |   [01;31m[Krclcpp[m[K::spin(std::make_shared<JointStatePublisher>());
+[0.871s]       |   [01;31m[K^~~~~~[m[K
+[0.873s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:33:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.873s]    33 |   rclcpp::spin(std::[01;31m[Kmake_shared[m[K<JointStatePublisher>());
+[0.873s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[0.874s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::make_shared[m[K’ is defined in header ‘[01m[K<memory>[m[K’; did you forget to ‘[01m[K#include <memory>[m[K’?
+[0.874s]   +++ |+[32m[K#include <memory>[m[K
+[0.874s]     1 | #include rclcpp/rclcpp.hpp
+[0.875s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:33:52:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[0.876s]    33 |   rclcpp::spin(std::make_shared<JointStatePublisher[01;31m[K>[m[K());
+[0.876s]       |                                                    [01;31m[K^[m[K
+[0.876s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:33:54:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[0.877s]    33 |   rclcpp::spin(std::make_shared<JointStatePublisher>([01;31m[K)[m[K);
+[0.877s]       |                                                      [01;31m[K^[m[K
+[0.877s] [01m[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:34:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.877s]    34 |   [01;31m[Krclcpp[m[K::shutdown();
+[0.878s]       |   [01;31m[K^~~~~~[m[K
+[0.882s] gmake[2]: *** [CMakeFiles/my_node.dir/build.make:76: CMakeFiles/my_node.dir/src/my_node.cpp.o] Error 1
+[0.883s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_node.dir/all] Error 2
+[0.883s] gmake: *** [Makefile:146: all] Error 2
+[0.887s] Invoked command in '/home/ayden/learn_ros2_ws/build/my_urdf_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayden/science_fair_ws/install/vine_robot:/home/ayden/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ayden/learn_ros2_ws/build/my_urdf_pkg -- -j4 -l4

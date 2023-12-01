@@ -1,0 +1,5 @@
+  File "/home/ayden/learn_ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py", line 1
+    print hi
+    ^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+

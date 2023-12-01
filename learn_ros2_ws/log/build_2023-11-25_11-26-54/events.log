@@ -1,0 +1,247 @@
+[0.000000] (-) TimerEvent: {}
+[0.010433] (my_urdf_pkg) JobQueued: {'identifier': 'my_urdf_pkg', 'dependencies': OrderedDict()}
+[0.011034] (my_urdf_pkg) JobStarted: {'identifier': 'my_urdf_pkg'}
+[0.098970] (-) TimerEvent: {}
+[0.202260] (-) TimerEvent: {}
+[0.304352] (-) TimerEvent: {}
+[0.410413] (-) TimerEvent: {}
+[0.523569] (-) TimerEvent: {}
+[0.635987] (-) TimerEvent: {}
+[0.737749] (-) TimerEvent: {}
+[0.844759] (-) TimerEvent: {}
+[0.958178] (-) TimerEvent: {}
+[1.070048] (-) TimerEvent: {}
+[1.171519] (-) TimerEvent: {}
+[1.272152] (-) TimerEvent: {}
+[1.372743] (-) TimerEvent: {}
+[1.473385] (-) TimerEvent: {}
+[1.574142] (-) TimerEvent: {}
+[1.674766] (-) TimerEvent: {}
+[1.775493] (-) TimerEvent: {}
+[1.876215] (-) TimerEvent: {}
+[1.976875] (-) TimerEvent: {}
+[2.077507] (-) TimerEvent: {}
+[2.178211] (-) TimerEvent: {}
+[2.278837] (-) TimerEvent: {}
+[2.379430] (-) TimerEvent: {}
+[2.479972] (-) TimerEvent: {}
+[2.580591] (-) TimerEvent: {}
+[2.681243] (-) TimerEvent: {}
+[2.781830] (-) TimerEvent: {}
+[2.882442] (-) TimerEvent: {}
+[2.983079] (-) TimerEvent: {}
+[3.083650] (-) TimerEvent: {}
+[3.184237] (-) TimerEvent: {}
+[3.284860] (-) TimerEvent: {}
+[3.385526] (-) TimerEvent: {}
+[3.486413] (-) TimerEvent: {}
+[3.587195] (-) TimerEvent: {}
+[3.687837] (-) TimerEvent: {}
+[3.788438] (-) TimerEvent: {}
+[3.889045] (-) TimerEvent: {}
+[3.989779] (-) TimerEvent: {}
+[4.090475] (-) TimerEvent: {}
+[4.191143] (-) TimerEvent: {}
+[4.291701] (-) TimerEvent: {}
+[4.392293] (-) TimerEvent: {}
+[4.492978] (-) TimerEvent: {}
+[4.593769] (-) TimerEvent: {}
+[4.694393] (-) TimerEvent: {}
+[4.795013] (-) TimerEvent: {}
+[4.895655] (-) TimerEvent: {}
+[4.996317] (-) TimerEvent: {}
+[5.096906] (-) TimerEvent: {}
+[5.197534] (-) TimerEvent: {}
+[5.298226] (-) TimerEvent: {}
+[5.398820] (-) TimerEvent: {}
+[5.499449] (-) TimerEvent: {}
+[5.600067] (-) TimerEvent: {}
+[5.700860] (-) TimerEvent: {}
+[5.801588] (-) TimerEvent: {}
+[5.902317] (-) TimerEvent: {}
+[6.003186] (-) TimerEvent: {}
+[6.103908] (-) TimerEvent: {}
+[6.204782] (-) TimerEvent: {}
+[6.305589] (-) TimerEvent: {}
+[6.406352] (-) TimerEvent: {}
+[6.506995] (-) TimerEvent: {}
+[6.607693] (-) TimerEvent: {}
+[6.708340] (-) TimerEvent: {}
+[6.808957] (-) TimerEvent: {}
+[6.909694] (-) TimerEvent: {}
+[7.010407] (-) TimerEvent: {}
+[7.111205] (-) TimerEvent: {}
+[7.212233] (-) TimerEvent: {}
+[7.312954] (-) TimerEvent: {}
+[7.413642] (-) TimerEvent: {}
+[7.514349] (-) TimerEvent: {}
+[7.615103] (-) TimerEvent: {}
+[7.715875] (-) TimerEvent: {}
+[7.816733] (-) TimerEvent: {}
+[7.917387] (-) TimerEvent: {}
+[8.018081] (-) TimerEvent: {}
+[8.118763] (-) TimerEvent: {}
+[8.219405] (-) TimerEvent: {}
+[8.320084] (-) TimerEvent: {}
+[8.420889] (-) TimerEvent: {}
+[8.521722] (-) TimerEvent: {}
+[8.622410] (-) TimerEvent: {}
+[8.723090] (-) TimerEvent: {}
+[8.823783] (-) TimerEvent: {}
+[8.924465] (-) TimerEvent: {}
+[9.025325] (-) TimerEvent: {}
+[9.126110] (-) TimerEvent: {}
+[9.226838] (-) TimerEvent: {}
+[9.327706] (-) TimerEvent: {}
+[9.428437] (-) TimerEvent: {}
+[9.529139] (-) TimerEvent: {}
+[9.629840] (-) TimerEvent: {}
+[9.730536] (-) TimerEvent: {}
+[9.831201] (-) TimerEvent: {}
+[9.932048] (-) TimerEvent: {}
+[10.032814] (-) TimerEvent: {}
+[10.133603] (-) TimerEvent: {}
+[10.234353] (-) TimerEvent: {}
+[10.335038] (-) TimerEvent: {}
+[10.435720] (-) TimerEvent: {}
+[10.536472] (-) TimerEvent: {}
+[10.637203] (-) TimerEvent: {}
+[10.737867] (-) TimerEvent: {}
+[10.838492] (-) TimerEvent: {}
+[10.939138] (-) TimerEvent: {}
+[11.039836] (-) TimerEvent: {}
+[11.140696] (-) TimerEvent: {}
+[11.241386] (-) TimerEvent: {}
+[11.342184] (-) TimerEvent: {}
+[11.442832] (-) TimerEvent: {}
+[11.543524] (-) TimerEvent: {}
+[11.644155] (-) TimerEvent: {}
+[11.747902] (-) TimerEvent: {}
+[11.873357] (-) TimerEvent: {}
+[11.974023] (-) TimerEvent: {}
+[12.074587] (-) TimerEvent: {}
+[12.175230] (-) TimerEvent: {}
+[12.275906] (-) TimerEvent: {}
+[12.376572] (-) TimerEvent: {}
+[12.478542] (-) TimerEvent: {}
+[12.579239] (-) TimerEvent: {}
+[12.679896] (-) TimerEvent: {}
+[12.811325] (-) TimerEvent: {}
+[12.911996] (-) TimerEvent: {}
+[13.012696] (-) TimerEvent: {}
+[13.113351] (-) TimerEvent: {}
+[13.214048] (-) TimerEvent: {}
+[13.314903] (-) TimerEvent: {}
+[13.415584] (-) TimerEvent: {}
+[13.516237] (-) TimerEvent: {}
+[13.616870] (-) TimerEvent: {}
+[13.717750] (-) TimerEvent: {}
+[13.818463] (-) TimerEvent: {}
+[13.919157] (-) TimerEvent: {}
+[14.019972] (-) TimerEvent: {}
+[14.120732] (-) TimerEvent: {}
+[14.221509] (-) TimerEvent: {}
+[14.322175] (-) TimerEvent: {}
+[14.422892] (-) TimerEvent: {}
+[14.536588] (-) TimerEvent: {}
+[14.637249] (-) TimerEvent: {}
+[14.738083] (-) TimerEvent: {}
+[14.838788] (-) TimerEvent: {}
+[14.939472] (-) TimerEvent: {}
+[15.040215] (-) TimerEvent: {}
+[15.140963] (-) TimerEvent: {}
+[15.241716] (-) TimerEvent: {}
+[15.342465] (-) TimerEvent: {}
+[15.443288] (-) TimerEvent: {}
+[15.544051] (-) TimerEvent: {}
+[15.644789] (-) TimerEvent: {}
+[15.745525] (-) TimerEvent: {}
+[15.846348] (-) TimerEvent: {}
+[15.947116] (-) TimerEvent: {}
+[16.047962] (-) TimerEvent: {}
+[16.148592] (-) TimerEvent: {}
+[16.249221] (-) TimerEvent: {}
+[16.350008] (-) TimerEvent: {}
+[16.450659] (-) TimerEvent: {}
+[16.551323] (-) TimerEvent: {}
+[16.652043] (-) TimerEvent: {}
+[16.752867] (-) TimerEvent: {}
+[16.853607] (-) TimerEvent: {}
+[16.954307] (-) TimerEvent: {}
+[17.054984] (-) TimerEvent: {}
+[17.155679] (-) TimerEvent: {}
+[17.256328] (-) TimerEvent: {}
+[17.356995] (-) TimerEvent: {}
+[17.457711] (-) TimerEvent: {}
+[17.558367] (-) TimerEvent: {}
+[17.659018] (-) TimerEvent: {}
+[17.759724] (-) TimerEvent: {}
+[17.860392] (-) TimerEvent: {}
+[17.961121] (-) TimerEvent: {}
+[18.061850] (-) TimerEvent: {}
+[18.162545] (-) TimerEvent: {}
+[18.263282] (-) TimerEvent: {}
+[18.364007] (-) TimerEvent: {}
+[18.464668] (-) TimerEvent: {}
+[18.580723] (-) TimerEvent: {}
+[18.681374] (-) TimerEvent: {}
+[18.782082] (-) TimerEvent: {}
+[18.882769] (-) TimerEvent: {}
+[18.983386] (-) TimerEvent: {}
+[19.084034] (-) TimerEvent: {}
+[19.184712] (-) TimerEvent: {}
+[19.285469] (-) TimerEvent: {}
+[19.386203] (-) TimerEvent: {}
+[19.486855] (-) TimerEvent: {}
+[19.587547] (-) TimerEvent: {}
+[19.596223] (my_urdf_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/my_urdf_pkg', 'build', '--build-base', '/home/ayden/learn_ros2_ws/build/my_urdf_pkg/build', 'install', '--record', '/home/ayden/learn_ros2_ws/build/my_urdf_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/ayden/learn_ros2_ws', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ayden', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ayden', 'OLDPWD': '/home/ayden', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ayden/learn_ros2_ws/install:/home/ayden/ros2_ws/install:/home/ayden/science_fair_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ayden', 'NAME': 'SB1', 'WSL_INTEROP': '/run/WSL/13593_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ayden/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Bravender/anaconda3:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Bravenders/AppData/Local/Programs/Python/Python3.11:/mnt/c/Users/Bravender/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Bravender/AppData/Local/Programs/Python/Python311/:/mnt/c/Python311/python3.exe:/mnt/c/Users/Bravender/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ayden/learn_ros2_ws/install/my_urdf_pkg:/home/ayden/science_fair_ws/install/vine_robot:/home/ayden/ros2_ws/install/my_robot_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ayden/learn_ros2_ws/build/my_urdf_pkg', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ayden/learn_ros2_ws/build/my_urdf_pkg/prefix_override:/home/ayden/learn_ros2_ws/install/my_urdf_pkg/lib/python3.10/site-packages:/home/ayden/science_fair_ws/install/vine_robot/lib/python3.10/site-packages:/home/ayden/ros2_ws/build/my_robot_controller:/home/ayden/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/ayden/learn_ros2_ws/install/my_urdf_pkg', 'WSLENV': ''}, 'shell': False}
+[19.687796] (-) TimerEvent: {}
+[19.788431] (-) TimerEvent: {}
+[19.889241] (-) TimerEvent: {}
+[19.989901] (-) TimerEvent: {}
+[20.090533] (-) TimerEvent: {}
+[20.191140] (-) TimerEvent: {}
+[20.291892] (-) TimerEvent: {}
+[20.392593] (-) TimerEvent: {}
+[20.493197] (-) TimerEvent: {}
+[20.593939] (-) TimerEvent: {}
+[20.694615] (-) TimerEvent: {}
+[20.795206] (-) TimerEvent: {}
+[20.895822] (-) TimerEvent: {}
+[20.996489] (-) TimerEvent: {}
+[21.097263] (-) TimerEvent: {}
+[21.197940] (-) TimerEvent: {}
+[21.298527] (-) TimerEvent: {}
+[21.399186] (-) TimerEvent: {}
+[21.499867] (-) TimerEvent: {}
+[21.600513] (-) TimerEvent: {}
+[21.701107] (-) TimerEvent: {}
+[21.801815] (-) TimerEvent: {}
+[21.902577] (-) TimerEvent: {}
+[21.986604] (my_urdf_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[21.988908] (my_urdf_pkg) StdoutLine: {'line': b'creating build/my_urdf_pkg/my_urdf_pkg.egg-info\n'}
+[21.989860] (my_urdf_pkg) StdoutLine: {'line': b'writing build/my_urdf_pkg/my_urdf_pkg.egg-info/PKG-INFO\n'}
+[21.990311] (my_urdf_pkg) StdoutLine: {'line': b'writing dependency_links to build/my_urdf_pkg/my_urdf_pkg.egg-info/dependency_links.txt\n'}
+[21.990742] (my_urdf_pkg) StdoutLine: {'line': b'writing entry points to build/my_urdf_pkg/my_urdf_pkg.egg-info/entry_points.txt\n'}
+[22.002786] (-) TimerEvent: {}
+[22.015286] (my_urdf_pkg) StdoutLine: {'line': b'writing requirements to build/my_urdf_pkg/my_urdf_pkg.egg-info/requires.txt\n'}
+[22.015738] (my_urdf_pkg) StdoutLine: {'line': b'writing top-level names to build/my_urdf_pkg/my_urdf_pkg.egg-info/top_level.txt\n'}
+[22.040710] (my_urdf_pkg) StdoutLine: {'line': b"writing manifest file 'build/my_urdf_pkg/my_urdf_pkg.egg-info/SOURCES.txt'\n"}
+[22.074581] (my_urdf_pkg) StderrLine: {'line': b'file pynode.py (for module pynode) not found\n'}
+[22.075628] (my_urdf_pkg) StdoutLine: {'line': b"reading manifest file 'build/my_urdf_pkg/my_urdf_pkg.egg-info/SOURCES.txt'\n"}
+[22.077780] (my_urdf_pkg) StdoutLine: {'line': b"writing manifest file 'build/my_urdf_pkg/my_urdf_pkg.egg-info/SOURCES.txt'\n"}
+[22.078366] (my_urdf_pkg) StdoutLine: {'line': b'running build\n'}
+[22.079009] (my_urdf_pkg) StdoutLine: {'line': b'running build_py\n'}
+[22.079318] (my_urdf_pkg) StderrLine: {'line': b'file pynode.py (for module pynode) not found\n'}
+[22.079544] (my_urdf_pkg) StderrLine: {'line': b'file pynode.py (for module pynode) not found\n'}
+[22.079755] (my_urdf_pkg) StdoutLine: {'line': b'running install\n'}
+[22.079997] (my_urdf_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[22.080894] (my_urdf_pkg) StdoutLine: {'line': b'running install_data\n'}
+[22.081296] (my_urdf_pkg) StderrLine: {'line': b"warning: install_lib: '/home/ayden/learn_ros2_ws/build/my_urdf_pkg/build/lib' does not exist -- no Python modules to install\n"}
+[22.081514] (my_urdf_pkg) StderrLine: {'line': b'\n'}
+[22.082369] (my_urdf_pkg) StderrLine: {'line': b"error: can't copy 'resource/my_urdf_pkg': doesn't exist or not a regular file\n"}
+[22.103045] (-) TimerEvent: {}
+[22.203837] (-) TimerEvent: {}
+[22.226220] (my_urdf_pkg) CommandEnded: {'returncode': 1}
+[22.227157] (my_urdf_pkg) JobEnded: {'identifier': 'my_urdf_pkg', 'rc': 1}
+[22.237815] (-) EventReactorShutdown: {}

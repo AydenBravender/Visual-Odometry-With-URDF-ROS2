@@ -1,0 +1,21 @@
+[7.254s] Invoking command in '/home/ayden/learn_ros2_ws': PYTHONPATH=/home/ayden/learn_ros2_ws/build/my_urdf_pkg/prefix_override:/home/ayden/learn_ros2_ws/install/my_urdf_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_urdf_pkg build --build-base /home/ayden/learn_ros2_ws/build/my_urdf_pkg/build install --record /home/ayden/learn_ros2_ws/build/my_urdf_pkg/install.log --single-version-externally-managed
+[9.802s] running egg_info
+[9.804s] writing build/my_urdf_pkg/my_urdf_pkg.egg-info/PKG-INFO
+[9.805s] writing dependency_links to build/my_urdf_pkg/my_urdf_pkg.egg-info/dependency_links.txt
+[9.816s] writing entry points to build/my_urdf_pkg/my_urdf_pkg.egg-info/entry_points.txt
+[9.816s] writing requirements to build/my_urdf_pkg/my_urdf_pkg.egg-info/requires.txt
+[9.817s] writing top-level names to build/my_urdf_pkg/my_urdf_pkg.egg-info/top_level.txt
+[9.820s] file pynode.py (for module pynode) not found
+[9.831s] reading manifest file 'build/my_urdf_pkg/my_urdf_pkg.egg-info/SOURCES.txt'
+[9.834s] writing manifest file 'build/my_urdf_pkg/my_urdf_pkg.egg-info/SOURCES.txt'
+[9.834s] running build
+[9.834s] running build_py
+[9.835s] running install
+[9.835s] file pynode.py (for module pynode) not found
+[9.835s] file pynode.py (for module pynode) not found
+[9.836s] running install_lib
+[9.837s] running install_data
+[9.837s] warning: install_lib: '/home/ayden/learn_ros2_ws/build/my_urdf_pkg/build/lib' does not exist -- no Python modules to install
+[9.837s] 
+[9.848s] error: can't copy 'resource/my_urdf_pkg': doesn't exist or not a regular file
+[9.984s] Invoked command in '/home/ayden/learn_ros2_ws' returned '1': PYTHONPATH=/home/ayden/learn_ros2_ws/build/my_urdf_pkg/prefix_override:/home/ayden/learn_ros2_ws/install/my_urdf_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_urdf_pkg build --build-base /home/ayden/learn_ros2_ws/build/my_urdf_pkg/build install --record /home/ayden/learn_ros2_ws/build/my_urdf_pkg/install.log --single-version-externally-managed

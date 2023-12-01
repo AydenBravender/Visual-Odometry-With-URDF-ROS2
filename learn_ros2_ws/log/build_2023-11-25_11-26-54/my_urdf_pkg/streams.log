@@ -1,0 +1,23 @@
+[19.620s] Invoking command in '/home/ayden/learn_ros2_ws': PYTHONPATH=/home/ayden/learn_ros2_ws/build/my_urdf_pkg/prefix_override:/home/ayden/learn_ros2_ws/install/my_urdf_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_urdf_pkg build --build-base /home/ayden/learn_ros2_ws/build/my_urdf_pkg/build install --record /home/ayden/learn_ros2_ws/build/my_urdf_pkg/install.log --single-version-externally-managed
+[21.976s] running egg_info
+[21.978s] creating build/my_urdf_pkg/my_urdf_pkg.egg-info
+[21.979s] writing build/my_urdf_pkg/my_urdf_pkg.egg-info/PKG-INFO
+[21.979s] writing dependency_links to build/my_urdf_pkg/my_urdf_pkg.egg-info/dependency_links.txt
+[21.980s] writing entry points to build/my_urdf_pkg/my_urdf_pkg.egg-info/entry_points.txt
+[22.004s] writing requirements to build/my_urdf_pkg/my_urdf_pkg.egg-info/requires.txt
+[22.005s] writing top-level names to build/my_urdf_pkg/my_urdf_pkg.egg-info/top_level.txt
+[22.030s] writing manifest file 'build/my_urdf_pkg/my_urdf_pkg.egg-info/SOURCES.txt'
+[22.064s] file pynode.py (for module pynode) not found
+[22.065s] reading manifest file 'build/my_urdf_pkg/my_urdf_pkg.egg-info/SOURCES.txt'
+[22.067s] writing manifest file 'build/my_urdf_pkg/my_urdf_pkg.egg-info/SOURCES.txt'
+[22.068s] running build
+[22.068s] running build_py
+[22.068s] file pynode.py (for module pynode) not found
+[22.068s] file pynode.py (for module pynode) not found
+[22.069s] running install
+[22.069s] running install_lib
+[22.070s] running install_data
+[22.070s] warning: install_lib: '/home/ayden/learn_ros2_ws/build/my_urdf_pkg/build/lib' does not exist -- no Python modules to install
+[22.070s] 
+[22.071s] error: can't copy 'resource/my_urdf_pkg': doesn't exist or not a regular file
+[22.215s] Invoked command in '/home/ayden/learn_ros2_ws' returned '1': PYTHONPATH=/home/ayden/learn_ros2_ws/build/my_urdf_pkg/prefix_override:/home/ayden/learn_ros2_ws/install/my_urdf_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_urdf_pkg build --build-base /home/ayden/learn_ros2_ws/build/my_urdf_pkg/build install --record /home/ayden/learn_ros2_ws/build/my_urdf_pkg/install.log --single-version-externally-managed

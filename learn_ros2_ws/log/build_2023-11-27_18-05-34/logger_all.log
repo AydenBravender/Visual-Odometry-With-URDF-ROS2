@@ -1,0 +1,153 @@
+[2.551s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.551s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe043b556f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe043febe80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe043febe80>>)
+[2.666s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.667s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.667s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.667s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.667s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.667s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.668s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ayden/learn_ros2_ws'
+[2.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.691s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.691s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.691s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.691s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.691s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.692s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.692s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.692s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.692s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.693s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.693s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_urdf_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_urdf_pkg) by extension 'ignore'
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_urdf_pkg) by extension 'ignore_ament_install'
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_urdf_pkg) by extensions ['colcon_pkg']
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_urdf_pkg) by extension 'colcon_pkg'
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_urdf_pkg) by extensions ['colcon_meta']
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_urdf_pkg) by extension 'colcon_meta'
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_urdf_pkg) by extensions ['ros']
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_urdf_pkg) by extension 'ros'
+[2.700s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_urdf_pkg' with type 'ros.ament_cmake' and name 'my_urdf_pkg'
+[2.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.019s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.019s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.118s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ayden/learn_ros2_ws/install
+[3.214s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ayden/ros2_ws/install
+[3.297s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ayden/science_fair_ws/install
+[3.426s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 380 installed packages in /opt/ros/humble
+[3.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.758s] Level 5:colcon.colcon_core.verb:set package 'my_urdf_pkg' build argument 'cmake_args' from command line to 'None'
+[3.758s] Level 5:colcon.colcon_core.verb:set package 'my_urdf_pkg' build argument 'cmake_target' from command line to 'None'
+[3.758s] Level 5:colcon.colcon_core.verb:set package 'my_urdf_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.758s] Level 5:colcon.colcon_core.verb:set package 'my_urdf_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[3.758s] Level 5:colcon.colcon_core.verb:set package 'my_urdf_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[3.758s] Level 5:colcon.colcon_core.verb:set package 'my_urdf_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[3.758s] Level 5:colcon.colcon_core.verb:set package 'my_urdf_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[3.758s] Level 5:colcon.colcon_core.verb:set package 'my_urdf_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[3.758s] Level 5:colcon.colcon_core.verb:set package 'my_urdf_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.758s] DEBUG:colcon.colcon_core.verb:Building package 'my_urdf_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ayden/learn_ros2_ws/build/my_urdf_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ayden/learn_ros2_ws/install/my_urdf_pkg', 'merge_install': False, 'path': '/home/ayden/learn_ros2_ws/src/my_urdf_pkg', 'symlink_install': False, 'test_result_base': None}
+[3.823s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.880s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.880s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ayden/learn_ros2_ws/src/my_urdf_pkg' with build type 'ament_cmake'
+[3.881s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ayden/learn_ros2_ws/src/my_urdf_pkg'
+[3.926s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.927s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.927s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayden/learn_ros2_ws/build/my_urdf_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayden/science_fair_ws/install/vine_robot:/home/ayden/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ayden/learn_ros2_ws/build/my_urdf_pkg -- -j4 -l4
+[30.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayden/learn_ros2_ws/build/my_urdf_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayden/science_fair_ws/install/vine_robot:/home/ayden/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ayden/learn_ros2_ws/build/my_urdf_pkg -- -j4 -l4
+[30.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayden/learn_ros2_ws/build/my_urdf_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayden/science_fair_ws/install/vine_robot:/home/ayden/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ayden/learn_ros2_ws/build/my_urdf_pkg
+[30.538s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_urdf_pkg)
+[30.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayden/learn_ros2_ws/build/my_urdf_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayden/science_fair_ws/install/vine_robot:/home/ayden/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ayden/learn_ros2_ws/build/my_urdf_pkg
+[30.662s] Level 1:colcon.colcon_core.environment:checking '/home/ayden/learn_ros2_ws/install/my_urdf_pkg' for CMake module files
+[30.665s] Level 1:colcon.colcon_core.environment:checking '/home/ayden/learn_ros2_ws/install/my_urdf_pkg' for CMake config files
+[30.666s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_urdf_pkg', 'cmake_prefix_path')
+[30.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/hook/cmake_prefix_path.ps1'
+[30.715s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/hook/cmake_prefix_path.dsv'
+[30.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/hook/cmake_prefix_path.sh'
+[30.718s] Level 1:colcon.colcon_core.environment:checking '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/lib'
+[30.718s] Level 1:colcon.colcon_core.environment:checking '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/bin'
+[30.718s] Level 1:colcon.colcon_core.environment:checking '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/lib/pkgconfig/my_urdf_pkg.pc'
+[30.719s] Level 1:colcon.colcon_core.environment:checking '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/lib/python3.10/site-packages'
+[30.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_urdf_pkg', 'pythonpath')
+[30.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/hook/pythonpath.ps1'
+[30.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/hook/pythonpath.dsv'
+[30.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/hook/pythonpath.sh'
+[30.760s] Level 1:colcon.colcon_core.environment:checking '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/bin'
+[30.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/package.ps1'
+[30.800s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/package.dsv'
+[30.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/package.sh'
+[30.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/package.bash'
+[30.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/package.zsh'
+[30.805s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/colcon-core/packages/my_urdf_pkg)
+[30.875s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_urdf_pkg)
+[30.917s] Level 1:colcon.colcon_core.environment:checking '/home/ayden/learn_ros2_ws/install/my_urdf_pkg' for CMake module files
+[30.919s] Level 1:colcon.colcon_core.environment:checking '/home/ayden/learn_ros2_ws/install/my_urdf_pkg' for CMake config files
+[30.919s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_urdf_pkg', 'cmake_prefix_path')
+[30.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/hook/cmake_prefix_path.ps1'
+[30.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/hook/cmake_prefix_path.dsv'
+[30.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/hook/cmake_prefix_path.sh'
+[30.977s] Level 1:colcon.colcon_core.environment:checking '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/lib'
+[30.978s] Level 1:colcon.colcon_core.environment:checking '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/bin'
+[30.978s] Level 1:colcon.colcon_core.environment:checking '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/lib/pkgconfig/my_urdf_pkg.pc'
+[30.978s] Level 1:colcon.colcon_core.environment:checking '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/lib/python3.10/site-packages'
+[30.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_urdf_pkg', 'pythonpath')
+[31.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/hook/pythonpath.ps1'
+[31.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/hook/pythonpath.dsv'
+[31.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/hook/pythonpath.sh'
+[31.028s] Level 1:colcon.colcon_core.environment:checking '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/bin'
+[31.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/package.ps1'
+[31.115s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/package.dsv'
+[31.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/package.sh'
+[31.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/package.bash'
+[31.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/package.zsh'
+[31.127s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/colcon-core/packages/my_urdf_pkg)
+[31.128s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[31.130s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[31.130s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[31.130s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[31.238s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[31.238s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[31.238s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[31.238s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[31.240s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[31.240s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[31.284s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayden/learn_ros2_ws/install/local_setup.ps1'
+[31.285s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ayden/learn_ros2_ws/install/_local_setup_util_ps1.py'
+[31.287s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayden/learn_ros2_ws/install/setup.ps1'
+[31.327s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayden/learn_ros2_ws/install/local_setup.sh'
+[31.328s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ayden/learn_ros2_ws/install/_local_setup_util_sh.py'
+[31.329s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayden/learn_ros2_ws/install/setup.sh'
+[31.371s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayden/learn_ros2_ws/install/local_setup.bash'
+[31.372s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayden/learn_ros2_ws/install/setup.bash'
+[31.415s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayden/learn_ros2_ws/install/local_setup.zsh'
+[31.416s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayden/learn_ros2_ws/install/setup.zsh'

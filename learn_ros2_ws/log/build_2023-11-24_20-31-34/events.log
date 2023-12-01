@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.000598] (my_urdf_pkg) JobQueued: {'identifier': 'my_urdf_pkg', 'dependencies': OrderedDict()}
+[0.001004] (my_urdf_pkg) JobStarted: {'identifier': 'my_urdf_pkg'}
+[0.098903] (-) TimerEvent: {}
+[0.199395] (-) TimerEvent: {}
+[0.300296] (-) TimerEvent: {}
+[0.352497] (my_urdf_pkg) JobProgress: {'identifier': 'my_urdf_pkg', 'progress': 'cmake'}
+[0.353663] (my_urdf_pkg) JobProgress: {'identifier': 'my_urdf_pkg', 'progress': 'build'}
+[0.355341] (my_urdf_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ayden/learn_ros2_ws/build/my_urdf_pkg', '--', '-j4', '-l4'], 'cwd': '/home/ayden/learn_ros2_ws/build/my_urdf_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ayden'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ayden'), ('OLDPWD', '/home/ayden'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ayden/learn_ros2_ws/install:/home/ayden/ros2_ws/install:/home/ayden/science_fair_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ayden'), ('NAME', 'SB1'), ('WSL_INTEROP', '/run/WSL/13593_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ayden/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Bravender/anaconda3:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Bravenders/AppData/Local/Programs/Python/Python3.11:/mnt/c/Users/Bravender/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Bravender/AppData/Local/Programs/Python/Python311/:/mnt/c/Python311/python3.exe:/mnt/c/Users/Bravender/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ayden/learn_ros2_ws/install/my_urdf_pkg:/home/ayden/science_fair_ws/install/vine_robot:/home/ayden/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ayden/learn_ros2_ws/build/my_urdf_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ayden/science_fair_ws/install/vine_robot/lib/python3.10/site-packages:/home/ayden/ros2_ws/build/my_robot_controller:/home/ayden/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ayden/learn_ros2_ws/install/my_urdf_pkg:/home/ayden/science_fair_ws/install/vine_robot:/home/ayden/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.400512] (-) TimerEvent: {}
+[0.460808] (my_urdf_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_node\x1b[0m\n'}
+[0.479439] (my_urdf_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o\x1b[0m\n'}
+[0.500664] (-) TimerEvent: {}
+[0.509922] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#include expects "FILENAME" or <FILENAME>\n'}
+[0.510467] (my_urdf_pkg) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K/rclcpp.hpp\n'}
+[0.510673] (my_urdf_pkg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.510859] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#include expects "FILENAME" or <FILENAME>\n'}
+[0.511044] (my_urdf_pkg) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K/msg/joint_state.hpp\n'}
+[0.511227] (my_urdf_pkg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.511469] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:4:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.511699] (my_urdf_pkg) StderrLine: {'line': b'    4 | class JointStatePublisher : public \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::Node\n'}
+[0.511883] (my_urdf_pkg) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.512064] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:4:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KNode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.512245] (my_urdf_pkg) StderrLine: {'line': b'    4 | class JointStatePublisher : public rclcpp::\x1b[01;31m\x1b[KNode\x1b[m\x1b[K\n'}
+[0.512460] (my_urdf_pkg) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.513075] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:6:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kpublic\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.513348] (my_urdf_pkg) StderrLine: {'line': b'    6 | \x1b[01;31m\x1b[Kpublic\x1b[m\x1b[K:\n'}
+[0.513536] (my_urdf_pkg) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.513771] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:6:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kpublic\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.513955] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:5:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.514155] (my_urdf_pkg) StderrLine: {'line': b'    5 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[0.514371] (my_urdf_pkg) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.514551] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:15:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kprivate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.514730] (my_urdf_pkg) StderrLine: {'line': b'   15 | \x1b[01;31m\x1b[Kprivate\x1b[m\x1b[K:\n'}
+[0.514906] (my_urdf_pkg) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.515086] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:25:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.515265] (my_urdf_pkg) StderrLine: {'line': b'   25 |   \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::TimerBase::SharedPtr timer_;\n'}
+[0.515486] (my_urdf_pkg) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.515663] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:26:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.515890] (my_urdf_pkg) StderrLine: {'line': b'   26 |   \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::Publisher<sensor_msgs::msg::JointState>::SharedPtr publisher_;\n'}
+[0.516075] (my_urdf_pkg) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.516350] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:27:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.516536] (my_urdf_pkg) StderrLine: {'line': b'   27 |   \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K count_;\n'}
+[0.516715] (my_urdf_pkg) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.516890] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.517073] (my_urdf_pkg) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <cstddef>\x1b[m\x1b[K\n'}
+[0.517353] (my_urdf_pkg) StderrLine: {'line': b'    1 | #include rclcpp/rclcpp.hpp\n'}
+[0.517660] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:28:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.519384] (my_urdf_pkg) StderrLine: {'line': b'   28 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[0.519594] (my_urdf_pkg) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.519777] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.519982] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:32:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.520172] (my_urdf_pkg) StderrLine: {'line': b'   32 |   \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::init(argc, argv);\n'}
+[0.520558] (my_urdf_pkg) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.522155] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:33:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.522588] (my_urdf_pkg) StderrLine: {'line': b'   33 |   \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::spin(std::make_shared<JointStatePublisher>());\n'}
+[0.522787] (my_urdf_pkg) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.522979] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:33:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmake_shared\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.523230] (my_urdf_pkg) StderrLine: {'line': b'   33 |   rclcpp::spin(std::\x1b[01;31m\x1b[Kmake_shared\x1b[m\x1b[K<JointStatePublisher>());\n'}
+[0.523453] (my_urdf_pkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.523647] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::make_shared\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<memory>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <memory>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.523836] (my_urdf_pkg) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <memory>\x1b[m\x1b[K\n'}
+[0.524020] (my_urdf_pkg) StderrLine: {'line': b'    1 | #include rclcpp/rclcpp.hpp\n'}
+[0.524230] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:33:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.524527] (my_urdf_pkg) StderrLine: {'line': b'   33 |   rclcpp::spin(std::make_shared<JointStatePublisher\x1b[01;31m\x1b[K>\x1b[m\x1b[K());\n'}
+[0.525509] (my_urdf_pkg) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.526254] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:33:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.527164] (my_urdf_pkg) StderrLine: {'line': b'   33 |   rclcpp::spin(std::make_shared<JointStatePublisher>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[0.527430] (my_urdf_pkg) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.527695] (my_urdf_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayden/learn_ros2_ws/src/my_urdf_pkg/src/my_node.cpp:34:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.527928] (my_urdf_pkg) StderrLine: {'line': b'   34 |   \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::shutdown();\n'}
+[0.528169] (my_urdf_pkg) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.528436] (my_urdf_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/my_node.dir/build.make:76: CMakeFiles/my_node.dir/src/my_node.cpp.o] Error 1\n'}
+[0.528676] (my_urdf_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_node.dir/all] Error 2\n'}
+[0.528915] (my_urdf_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[0.529151] (my_urdf_pkg) CommandEnded: {'returncode': 2}
+[0.601055] (-) TimerEvent: {}
+[0.702452] (-) TimerEvent: {}
+[0.761481] (my_urdf_pkg) JobEnded: {'identifier': 'my_urdf_pkg', 'rc': 2}
+[0.772856] (-) EventReactorShutdown: {}

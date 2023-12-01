@@ -1,0 +1,6 @@
+file pynode.py (for module pynode) not found
+file pynode.py (for module pynode) not found
+file pynode.py (for module pynode) not found
+warning: install_lib: '/home/ayden/learn_ros2_ws/build/my_urdf_pkg/build/lib' does not exist -- no Python modules to install
+
+error: can't copy 'resource/my_urdf_pkg': doesn't exist or not a regular file

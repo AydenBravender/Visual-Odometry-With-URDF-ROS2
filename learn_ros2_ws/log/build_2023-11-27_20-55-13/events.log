@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.000828] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.001270] (my_urdf_pkg) JobQueued: {'identifier': 'my_urdf_pkg', 'dependencies': OrderedDict()}
+[0.001509] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.093566] (-) TimerEvent: {}
+[0.195724] (-) TimerEvent: {}
+[0.304817] (-) TimerEvent: {}
+[0.411889] (-) TimerEvent: {}
+[0.519046] (-) TimerEvent: {}
+[0.641333] (-) TimerEvent: {}
+[0.745637] (-) TimerEvent: {}
+[0.847217] (-) TimerEvent: {}
+[0.948637] (-) TimerEvent: {}
+[1.032131] (my_urdf_pkg) JobStarted: {'identifier': 'my_urdf_pkg'}
+[1.052183] (-) TimerEvent: {}
+[1.153376] (-) TimerEvent: {}
+[1.254493] (-) TimerEvent: {}
+[1.357118] (-) TimerEvent: {}
+[1.459586] (-) TimerEvent: {}
+[1.560362] (-) TimerEvent: {}
+[1.661626] (-) TimerEvent: {}
+[1.763730] (-) TimerEvent: {}
+[1.864468] (-) TimerEvent: {}
+[1.965504] (-) TimerEvent: {}
+[2.066102] (-) TimerEvent: {}
+[2.166743] (-) TimerEvent: {}
+[2.267372] (-) TimerEvent: {}
+[2.367979] (-) TimerEvent: {}
+[2.468517] (-) TimerEvent: {}
+[2.569148] (-) TimerEvent: {}
+[2.669776] (-) TimerEvent: {}
+[2.770495] (-) TimerEvent: {}
+[2.871652] (-) TimerEvent: {}
+[2.972609] (-) TimerEvent: {}
+[3.073684] (-) TimerEvent: {}
+[3.107868] (my_urdf_pkg) JobProgress: {'identifier': 'my_urdf_pkg', 'progress': 'cmake'}
+[3.113764] (my_urdf_pkg) JobProgress: {'identifier': 'my_urdf_pkg', 'progress': 'build'}
+[3.114610] (my_urdf_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ayden/learn_ros2_ws/build/my_urdf_pkg', '--', '-j4', '-l4'], 'cwd': '/home/ayden/learn_ros2_ws/build/my_urdf_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ayden'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ayden'), ('OLDPWD', '/home/ayden/learn_ros2_ws/src/my_robot_controller'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ayden/learn_ros2_ws/install:/home/ayden/ros2_ws/install:/home/ayden/science_fair_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ayden'), ('NAME', 'SB1'), ('WSL_INTEROP', '/run/WSL/13593_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ayden/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Bravender/anaconda3:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Bravenders/AppData/Local/Programs/Python/Python3.11:/mnt/c/Users/Bravender/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Bravender/AppData/Local/Programs/Python/Python311/:/mnt/c/Python311/python3.exe:/mnt/c/Users/Bravender/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ayden/learn_ros2_ws/install/my_urdf_pkg:/home/ayden/science_fair_ws/install/vine_robot:/home/ayden/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ayden/learn_ros2_ws/build/my_urdf_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ayden/science_fair_ws/install/vine_robot/lib/python3.10/site-packages:/home/ayden/ros2_ws/build/my_robot_controller:/home/ayden/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ayden/learn_ros2_ws/install/my_urdf_pkg:/home/ayden/science_fair_ws/install/vine_robot:/home/ayden/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[3.173930] (-) TimerEvent: {}
+[3.284063] (-) TimerEvent: {}
+[3.297593] (my_urdf_pkg) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[3.323339] (my_urdf_pkg) CommandEnded: {'returncode': 0}
+[3.384257] (-) TimerEvent: {}
+[3.446100] (my_urdf_pkg) JobProgress: {'identifier': 'my_urdf_pkg', 'progress': 'install'}
+[3.484524] (-) TimerEvent: {}
+[3.494991] (my_urdf_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ayden/learn_ros2_ws/build/my_urdf_pkg'], 'cwd': '/home/ayden/learn_ros2_ws/build/my_urdf_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ayden'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ayden'), ('OLDPWD', '/home/ayden/learn_ros2_ws/src/my_robot_controller'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ayden/learn_ros2_ws/install:/home/ayden/ros2_ws/install:/home/ayden/science_fair_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ayden'), ('NAME', 'SB1'), ('WSL_INTEROP', '/run/WSL/13593_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ayden/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Bravender/anaconda3:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Bravenders/AppData/Local/Programs/Python/Python3.11:/mnt/c/Users/Bravender/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Bravender/AppData/Local/Programs/Python/Python311/:/mnt/c/Python311/python3.exe:/mnt/c/Users/Bravender/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ayden/learn_ros2_ws/install/my_urdf_pkg:/home/ayden/science_fair_ws/install/vine_robot:/home/ayden/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ayden/learn_ros2_ws/build/my_urdf_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ayden/science_fair_ws/install/vine_robot/lib/python3.10/site-packages:/home/ayden/ros2_ws/build/my_robot_controller:/home/ayden/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ayden/learn_ros2_ws/install/my_urdf_pkg:/home/ayden/science_fair_ws/install/vine_robot:/home/ayden/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[3.547519] (my_urdf_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.550477] (my_urdf_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/lib/my_urdf_pkg/my_node\n'}
+[3.566884] (my_urdf_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/ament_index/resource_index/package_run_dependencies/my_urdf_pkg\n'}
+[3.569545] (my_urdf_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/ament_index/resource_index/parent_prefix_path/my_urdf_pkg\n'}
+[3.581579] (my_urdf_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/environment/ament_prefix_path.sh\n'}
+[3.583994] (my_urdf_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/environment/ament_prefix_path.dsv\n'}
+[3.585909] (-) TimerEvent: {}
+[3.600545] (my_urdf_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/environment/path.sh\n'}
+[3.601834] (my_urdf_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/environment/path.dsv\n'}
+[3.602916] (my_urdf_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/local_setup.bash\n'}
+[3.603993] (my_urdf_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/local_setup.sh\n'}
+[3.614093] (my_urdf_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/local_setup.zsh\n'}
+[3.614471] (my_urdf_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/local_setup.dsv\n'}
+[3.614725] (my_urdf_pkg) StdoutLine: {'line': b'-- Installing: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/package.dsv\n'}
+[3.615041] (my_urdf_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/ament_index/resource_index/packages/my_urdf_pkg\n'}
+[3.615307] (my_urdf_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/cmake/my_urdf_pkgConfig.cmake\n'}
+[3.615524] (my_urdf_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/cmake/my_urdf_pkgConfig-version.cmake\n'}
+[3.615734] (my_urdf_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ayden/learn_ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg/package.xml\n'}
+[3.615956] (my_urdf_pkg) CommandEnded: {'returncode': 0}
+[3.693838] (-) TimerEvent: {}
+[3.795543] (-) TimerEvent: {}
+[3.906343] (-) TimerEvent: {}
+[4.044610] (-) TimerEvent: {}
+[4.145223] (-) TimerEvent: {}
+[4.252110] (-) TimerEvent: {}
+[4.352730] (-) TimerEvent: {}
+[4.462488] (-) TimerEvent: {}
+[4.563023] (-) TimerEvent: {}
+[4.666121] (-) TimerEvent: {}
+[4.766626] (-) TimerEvent: {}
+[4.867206] (-) TimerEvent: {}
+[4.975297] (-) TimerEvent: {}
+[5.077887] (-) TimerEvent: {}
+[5.181955] (-) TimerEvent: {}
+[5.313536] (-) TimerEvent: {}
+[5.414734] (-) TimerEvent: {}
+[5.520190] (-) TimerEvent: {}
+[5.541112] (my_urdf_pkg) JobEnded: {'identifier': 'my_urdf_pkg', 'rc': 0}
+[5.620535] (-) TimerEvent: {}
+[5.741233] (-) TimerEvent: {}
+[5.841835] (-) TimerEvent: {}
+[5.942435] (-) TimerEvent: {}
+[6.043146] (-) TimerEvent: {}
+[6.143784] (-) TimerEvent: {}
+[6.175392] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_controller', 'build', '--build-base', '/home/ayden/learn_ros2_ws/build/my_robot_controller/build', 'install', '--record', '/home/ayden/learn_ros2_ws/build/my_robot_controller/install.log', '--single-version-externally-managed'], 'cwd': '/home/ayden/learn_ros2_ws/src/my_robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ayden', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ayden', 'OLDPWD': '/home/ayden/learn_ros2_ws/src/my_robot_controller', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ayden/learn_ros2_ws/install:/home/ayden/ros2_ws/install:/home/ayden/science_fair_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ayden', 'NAME': 'SB1', 'WSL_INTEROP': '/run/WSL/13593_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ayden/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Bravender/anaconda3:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Bravenders/AppData/Local/Programs/Python/Python3.11:/mnt/c/Users/Bravender/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Bravender/AppData/Local/Programs/Python/Python311/:/mnt/c/Python311/python3.exe:/mnt/c/Users/Bravender/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ayden/learn_ros2_ws/install/my_urdf_pkg:/home/ayden/science_fair_ws/install/vine_robot:/home/ayden/ros2_ws/install/my_robot_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ayden/learn_ros2_ws/build/my_robot_controller', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ayden/learn_ros2_ws/build/my_robot_controller/prefix_override:/home/ayden/learn_ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/ayden/science_fair_ws/install/vine_robot/lib/python3.10/site-packages:/home/ayden/ros2_ws/build/my_robot_controller:/home/ayden/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/ayden/learn_ros2_ws/install/my_urdf_pkg', 'WSLENV': ''}, 'shell': False}
+[6.243979] (-) TimerEvent: {}
+[6.344670] (-) TimerEvent: {}
+[6.445387] (-) TimerEvent: {}
+[6.546006] (-) TimerEvent: {}
+[6.651812] (-) TimerEvent: {}
+[6.752388] (-) TimerEvent: {}
+[6.853051] (-) TimerEvent: {}
+[6.953634] (-) TimerEvent: {}
+[7.054254] (-) TimerEvent: {}
+[7.156718] (-) TimerEvent: {}
+[7.257349] (-) TimerEvent: {}
+[7.357879] (-) TimerEvent: {}
+[7.458431] (-) TimerEvent: {}
+[7.559007] (-) TimerEvent: {}
+[7.576483] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[7.589264] (my_robot_controller) StdoutLine: {'line': b'writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO\n'}
+[7.589830] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt\n'}
+[7.590179] (my_robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt\n'}
+[7.590675] (my_robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt\n'}
+[7.593518] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt\n'}
+[7.606430] (my_robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[7.623096] (my_robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[7.623537] (my_robot_controller) StdoutLine: {'line': b'running build\n'}
+[7.623818] (my_robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[7.624044] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/__init__.py -> /home/ayden/learn_ros2_ws/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[7.624265] (my_robot_controller) StdoutLine: {'line': b'running install\n'}
+[7.624478] (my_robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[7.624828] (my_robot_controller) StdoutLine: {'line': b'copying /home/ayden/learn_ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/ayden/learn_ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller\n'}
+[7.626606] (my_robot_controller) StdoutLine: {'line': b'byte-compiling /home/ayden/learn_ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc\n'}
+[7.628202] (my_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[7.630012] (my_robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.645547] (my_robot_controller) StdoutLine: {'line': b"removing '/home/ayden/learn_ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.656025] (my_robot_controller) StdoutLine: {'line': b'Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/ayden/learn_ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info\n'}
+[7.659234] (-) TimerEvent: {}
+[7.660993] (my_robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[7.759538] (-) TimerEvent: {}
+[7.768389] (my_robot_controller) StdoutLine: {'line': b'Installing driver_node script to /home/ayden/learn_ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[7.769415] (my_robot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/ayden/learn_ros2_ws/build/my_robot_controller/install.log'\n"}
+[7.861583] (-) TimerEvent: {}
+[7.950907] (my_robot_controller) CommandEnded: {'returncode': 0}
+[7.967663] (-) TimerEvent: {}
+[8.068222] (-) TimerEvent: {}
+[8.170437] (-) TimerEvent: {}
+[8.271974] (-) TimerEvent: {}
+[8.373498] (-) TimerEvent: {}
+[8.416458] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[8.418007] (-) EventReactorShutdown: {}
