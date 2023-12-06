@@ -1,0 +1,165 @@
+[0.000000] (-) TimerEvent: {}
+[0.002182] (my_urdf_pkg) JobQueued: {'identifier': 'my_urdf_pkg', 'dependencies': OrderedDict()}
+[0.004144] (my_urdf_pkg) JobStarted: {'identifier': 'my_urdf_pkg'}
+[0.098554] (-) TimerEvent: {}
+[0.201305] (-) TimerEvent: {}
+[0.303045] (-) TimerEvent: {}
+[0.405362] (-) TimerEvent: {}
+[0.507307] (-) TimerEvent: {}
+[0.613821] (-) TimerEvent: {}
+[0.716344] (-) TimerEvent: {}
+[0.820622] (-) TimerEvent: {}
+[0.922452] (-) TimerEvent: {}
+[1.025271] (-) TimerEvent: {}
+[1.130913] (-) TimerEvent: {}
+[1.232677] (-) TimerEvent: {}
+[1.335404] (-) TimerEvent: {}
+[1.437512] (-) TimerEvent: {}
+[1.540738] (-) TimerEvent: {}
+[1.644037] (-) TimerEvent: {}
+[1.745854] (-) TimerEvent: {}
+[1.849949] (-) TimerEvent: {}
+[1.951535] (-) TimerEvent: {}
+[2.056373] (-) TimerEvent: {}
+[2.159471] (-) TimerEvent: {}
+[2.262392] (-) TimerEvent: {}
+[2.364449] (-) TimerEvent: {}
+[2.469416] (-) TimerEvent: {}
+[2.571458] (-) TimerEvent: {}
+[2.674456] (-) TimerEvent: {}
+[2.777254] (-) TimerEvent: {}
+[2.878417] (-) TimerEvent: {}
+[2.984476] (-) TimerEvent: {}
+[3.087708] (-) TimerEvent: {}
+[3.189076] (-) TimerEvent: {}
+[3.290843] (-) TimerEvent: {}
+[3.392576] (-) TimerEvent: {}
+[3.494149] (-) TimerEvent: {}
+[3.597319] (-) TimerEvent: {}
+[3.699313] (-) TimerEvent: {}
+[3.802404] (-) TimerEvent: {}
+[3.911372] (-) TimerEvent: {}
+[4.019912] (-) TimerEvent: {}
+[4.127804] (-) TimerEvent: {}
+[4.241377] (-) TimerEvent: {}
+[4.455372] (-) TimerEvent: {}
+[4.559040] (-) TimerEvent: {}
+[4.661774] (-) TimerEvent: {}
+[4.768023] (-) TimerEvent: {}
+[4.871126] (-) TimerEvent: {}
+[4.973740] (-) TimerEvent: {}
+[5.078054] (-) TimerEvent: {}
+[5.183654] (-) TimerEvent: {}
+[5.285393] (-) TimerEvent: {}
+[5.387653] (-) TimerEvent: {}
+[5.491296] (-) TimerEvent: {}
+[5.594730] (-) TimerEvent: {}
+[5.697896] (-) TimerEvent: {}
+[5.802252] (-) TimerEvent: {}
+[5.905247] (-) TimerEvent: {}
+[6.007491] (-) TimerEvent: {}
+[6.111394] (-) TimerEvent: {}
+[6.213123] (-) TimerEvent: {}
+[6.315601] (-) TimerEvent: {}
+[6.418656] (-) TimerEvent: {}
+[6.521348] (-) TimerEvent: {}
+[6.624298] (-) TimerEvent: {}
+[6.726502] (-) TimerEvent: {}
+[6.829276] (-) TimerEvent: {}
+[6.936377] (-) TimerEvent: {}
+[7.038103] (-) TimerEvent: {}
+[7.139553] (-) TimerEvent: {}
+[7.243124] (-) TimerEvent: {}
+[7.345330] (-) TimerEvent: {}
+[7.447260] (-) TimerEvent: {}
+[7.548718] (-) TimerEvent: {}
+[7.650592] (-) TimerEvent: {}
+[7.752723] (-) TimerEvent: {}
+[7.855826] (-) TimerEvent: {}
+[7.960202] (-) TimerEvent: {}
+[8.062863] (-) TimerEvent: {}
+[8.165503] (-) TimerEvent: {}
+[8.267478] (-) TimerEvent: {}
+[8.369622] (-) TimerEvent: {}
+[8.472095] (-) TimerEvent: {}
+[8.574570] (-) TimerEvent: {}
+[8.676150] (-) TimerEvent: {}
+[8.777895] (-) TimerEvent: {}
+[8.881572] (-) TimerEvent: {}
+[8.985527] (-) TimerEvent: {}
+[9.090540] (-) TimerEvent: {}
+[9.193509] (-) TimerEvent: {}
+[9.295512] (-) TimerEvent: {}
+[9.398431] (-) TimerEvent: {}
+[9.502473] (-) TimerEvent: {}
+[9.605112] (-) TimerEvent: {}
+[9.708887] (-) TimerEvent: {}
+[9.813734] (-) TimerEvent: {}
+[9.918647] (-) TimerEvent: {}
+[9.963593] (my_urdf_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_urdf_pkg', 'build', '--build-base', '/home/bravenderbros/ros2_ws/build/my_urdf_pkg/build', 'install', '--record', '/home/bravenderbros/ros2_ws/build/my_urdf_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/bravenderbros/ros2_ws/src/my_urdf_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'bravenderbros', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/bravenderbros', 'OLDPWD': '/home/bravenderbros', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '105816', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bravenderbros/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bravenderbros', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bravenderbros', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bravenderbros-desktop:@/tmp/.ICE-unix/1181,unix/bravenderbros-desktop:/tmp/.ICE-unix/1181', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/236fafef_42e7_4074_9e0b_f27977f4d5f8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_CA.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.STRVE2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.422', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/bravenderbros/ros2_ws/install/my_urdf_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bravenderbros/ros2_ws/build/my_urdf_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bravenderbros/ros2_ws/build/my_urdf_pkg/prefix_override:/home/bravenderbros/ros2_ws/install/my_urdf_pkg/lib/python3.10/site-packages:/home/bravenderbros/ros2_ws/install/my_urdf_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[10.025287] (-) TimerEvent: {}
+[10.127656] (-) TimerEvent: {}
+[10.229413] (-) TimerEvent: {}
+[10.333730] (-) TimerEvent: {}
+[10.436969] (-) TimerEvent: {}
+[10.539637] (-) TimerEvent: {}
+[10.642464] (-) TimerEvent: {}
+[10.747386] (-) TimerEvent: {}
+[10.851352] (-) TimerEvent: {}
+[10.953072] (-) TimerEvent: {}
+[11.055905] (-) TimerEvent: {}
+[11.159219] (-) TimerEvent: {}
+[11.260869] (-) TimerEvent: {}
+[11.362859] (-) TimerEvent: {}
+[11.466292] (-) TimerEvent: {}
+[11.569085] (-) TimerEvent: {}
+[11.672507] (-) TimerEvent: {}
+[11.774560] (-) TimerEvent: {}
+[11.876294] (-) TimerEvent: {}
+[11.977767] (-) TimerEvent: {}
+[12.080436] (-) TimerEvent: {}
+[12.185851] (-) TimerEvent: {}
+[12.288888] (-) TimerEvent: {}
+[12.390856] (-) TimerEvent: {}
+[12.493345] (-) TimerEvent: {}
+[12.595050] (-) TimerEvent: {}
+[12.699030] (-) TimerEvent: {}
+[12.800459] (-) TimerEvent: {}
+[12.902367] (-) TimerEvent: {}
+[13.004221] (-) TimerEvent: {}
+[13.059147] (my_urdf_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[13.068085] (my_urdf_pkg) StdoutLine: {'line': b'writing ../../build/my_urdf_pkg/my_urdf_pkg.egg-info/PKG-INFO\n'}
+[13.069634] (my_urdf_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_urdf_pkg/my_urdf_pkg.egg-info/dependency_links.txt\n'}
+[13.071020] (my_urdf_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_urdf_pkg/my_urdf_pkg.egg-info/entry_points.txt\n'}
+[13.072321] (my_urdf_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_urdf_pkg/my_urdf_pkg.egg-info/requires.txt\n'}
+[13.073331] (my_urdf_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_urdf_pkg/my_urdf_pkg.egg-info/top_level.txt\n'}
+[13.094839] (my_urdf_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_urdf_pkg/my_urdf_pkg.egg-info/SOURCES.txt'\n"}
+[13.103041] (my_urdf_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_urdf_pkg/my_urdf_pkg.egg-info/SOURCES.txt'\n"}
+[13.105005] (-) TimerEvent: {}
+[13.107954] (my_urdf_pkg) StdoutLine: {'line': b'running build\n'}
+[13.123401] (my_urdf_pkg) StdoutLine: {'line': b'running build_py\n'}
+[13.149143] (my_urdf_pkg) StdoutLine: {'line': b'copying my_urdf_pkg/my_node.py -> /home/bravenderbros/ros2_ws/build/my_urdf_pkg/build/lib/my_urdf_pkg\n'}
+[13.153612] (my_urdf_pkg) StdoutLine: {'line': b'running install\n'}
+[13.166408] (my_urdf_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[13.172509] (my_urdf_pkg) StdoutLine: {'line': b'copying /home/bravenderbros/ros2_ws/build/my_urdf_pkg/build/lib/my_urdf_pkg/my_node.py -> /home/bravenderbros/ros2_ws/install/my_urdf_pkg/lib/python3.10/site-packages/my_urdf_pkg\n'}
+[13.179156] (my_urdf_pkg) StdoutLine: {'line': b'byte-compiling /home/bravenderbros/ros2_ws/install/my_urdf_pkg/lib/python3.10/site-packages/my_urdf_pkg/my_node.py to my_node.cpython-310.pyc\n'}
+[13.184463] (my_urdf_pkg) StdoutLine: {'line': b'running install_data\n'}
+[13.189251] (my_urdf_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.195985] (my_urdf_pkg) StdoutLine: {'line': b"removing '/home/bravenderbros/ros2_ws/install/my_urdf_pkg/lib/python3.10/site-packages/my_urdf_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.202407] (my_urdf_pkg) StdoutLine: {'line': b'Copying ../../build/my_urdf_pkg/my_urdf_pkg.egg-info to /home/bravenderbros/ros2_ws/install/my_urdf_pkg/lib/python3.10/site-packages/my_urdf_pkg-0.0.0-py3.10.egg-info\n'}
+[13.208638] (-) TimerEvent: {}
+[13.219048] (my_urdf_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[13.308957] (-) TimerEvent: {}
+[13.351396] (my_urdf_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/bravenderbros/ros2_ws/build/my_urdf_pkg/install.log'\n"}
+[13.409927] (-) TimerEvent: {}
+[13.514014] (-) TimerEvent: {}
+[13.618107] (-) TimerEvent: {}
+[13.722738] (-) TimerEvent: {}
+[13.763679] (my_urdf_pkg) CommandEnded: {'returncode': 0}
+[13.823243] (-) TimerEvent: {}
+[13.925374] (-) TimerEvent: {}
+[14.027130] (-) TimerEvent: {}
+[14.134515] (-) TimerEvent: {}
+[14.239940] (-) TimerEvent: {}
+[14.313038] (my_urdf_pkg) JobEnded: {'identifier': 'my_urdf_pkg', 'rc': 0}
+[14.318720] (-) EventReactorShutdown: {}

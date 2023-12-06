@@ -1,0 +1,33 @@
+[3.841s] Invoking command in '/home/bravenderbros/ros2_ws/src/my_urdf_pkg': PYTHONPATH=/home/bravenderbros/ros2_ws/build/my_urdf_pkg/prefix_override:/home/bravenderbros/ros2_ws/install/my_urdf_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_urdf_pkg build --build-base /home/bravenderbros/ros2_ws/build/my_urdf_pkg/build install --record /home/bravenderbros/ros2_ws/build/my_urdf_pkg/install.log --single-version-externally-managed
+[5.087s] running egg_info
+[5.092s] creating ../../build/my_urdf_pkg/my_urdf_pkg.egg-info
+[5.093s] writing ../../build/my_urdf_pkg/my_urdf_pkg.egg-info/PKG-INFO
+[5.094s] writing dependency_links to ../../build/my_urdf_pkg/my_urdf_pkg.egg-info/dependency_links.txt
+[5.099s] writing entry points to ../../build/my_urdf_pkg/my_urdf_pkg.egg-info/entry_points.txt
+[5.100s] writing requirements to ../../build/my_urdf_pkg/my_urdf_pkg.egg-info/requires.txt
+[5.100s] writing top-level names to ../../build/my_urdf_pkg/my_urdf_pkg.egg-info/top_level.txt
+[5.101s] writing manifest file '../../build/my_urdf_pkg/my_urdf_pkg.egg-info/SOURCES.txt'
+[5.106s] reading manifest file '../../build/my_urdf_pkg/my_urdf_pkg.egg-info/SOURCES.txt'
+[5.111s] writing manifest file '../../build/my_urdf_pkg/my_urdf_pkg.egg-info/SOURCES.txt'
+[5.112s] running build
+[5.113s] running build_py
+[5.115s] creating /home/bravenderbros/ros2_ws/build/my_urdf_pkg/build
+[5.116s] creating /home/bravenderbros/ros2_ws/build/my_urdf_pkg/build/lib
+[5.117s] creating /home/bravenderbros/ros2_ws/build/my_urdf_pkg/build/lib/my_urdf_pkg
+[5.118s] copying my_urdf_pkg/__init__.py -> /home/bravenderbros/ros2_ws/build/my_urdf_pkg/build/lib/my_urdf_pkg
+[5.119s] running install
+[5.119s] running install_lib
+[5.122s] creating /home/bravenderbros/ros2_ws/install/my_urdf_pkg/lib/python3.10/site-packages/my_urdf_pkg
+[5.122s] copying /home/bravenderbros/ros2_ws/build/my_urdf_pkg/build/lib/my_urdf_pkg/__init__.py -> /home/bravenderbros/ros2_ws/install/my_urdf_pkg/lib/python3.10/site-packages/my_urdf_pkg
+[5.125s] byte-compiling /home/bravenderbros/ros2_ws/install/my_urdf_pkg/lib/python3.10/site-packages/my_urdf_pkg/__init__.py to __init__.cpython-310.pyc
+[5.126s] running install_data
+[5.129s] creating /home/bravenderbros/ros2_ws/install/my_urdf_pkg/share/ament_index
+[5.129s] creating /home/bravenderbros/ros2_ws/install/my_urdf_pkg/share/ament_index/resource_index
+[5.130s] creating /home/bravenderbros/ros2_ws/install/my_urdf_pkg/share/ament_index/resource_index/packages
+[5.131s] copying resource/my_urdf_pkg -> /home/bravenderbros/ros2_ws/install/my_urdf_pkg/share/ament_index/resource_index/packages
+[5.131s] copying package.xml -> /home/bravenderbros/ros2_ws/install/my_urdf_pkg/share/my_urdf_pkg
+[5.132s] running install_egg_info
+[5.138s] Copying ../../build/my_urdf_pkg/my_urdf_pkg.egg-info to /home/bravenderbros/ros2_ws/install/my_urdf_pkg/lib/python3.10/site-packages/my_urdf_pkg-0.0.0-py3.10.egg-info
+[5.143s] running install_scripts
+[5.224s] writing list of installed files to '/home/bravenderbros/ros2_ws/build/my_urdf_pkg/install.log'
+[5.367s] Invoked command in '/home/bravenderbros/ros2_ws/src/my_urdf_pkg' returned '0': PYTHONPATH=/home/bravenderbros/ros2_ws/build/my_urdf_pkg/prefix_override:/home/bravenderbros/ros2_ws/install/my_urdf_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_urdf_pkg build --build-base /home/bravenderbros/ros2_ws/build/my_urdf_pkg/build install --record /home/bravenderbros/ros2_ws/build/my_urdf_pkg/install.log --single-version-externally-managed
